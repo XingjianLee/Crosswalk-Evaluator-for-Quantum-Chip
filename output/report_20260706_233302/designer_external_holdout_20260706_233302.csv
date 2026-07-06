@@ -1,0 +1,2 @@
+Dataset,Topology inferred,Samples,ScoreTotal MAE,ScoreTotal MAE_r,ScoreTotal Sp,ScoreTotal Pearson,Note
+Designer_sample,5x5,5,0.0031075458973646164,0.5166779160499573,-0.09999999999999999,-0.5391210317611694,external holdout only; not used for training/model selection; only 5 samples

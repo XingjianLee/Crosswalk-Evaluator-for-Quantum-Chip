@@ -1,0 +1,492 @@
+{
+  "run_id": "20260706_233302",
+  "generated_at": "2026-07-06T23:33:02",
+  "device": "cpu",
+  "checkpoint_paths": {
+    "X": "/Users/felix/PycharmProjects/evaluator/run_X/bs_512_lr0.001_hid32_lyr2_dp0.2_loss_huber_rank0.3_warm20_bnd0.01/model_X_150.pt",
+    "Y": "/Users/felix/PycharmProjects/evaluator/run_Y/bs_512_lr0.001_hid32_lyr2_dp0.2_loss_huber_rank0.3_warm20_bnd0.01/model_Y_150.pt",
+    "iSWAP": "/Users/felix/PycharmProjects/evaluator/run_iSWAP/bs_512_lr0.001_hid32_lyr2_dp0.1_loss_huber_rank0.3_warm20_bnd0.01/model_iSWAP_150.pt"
+  },
+  "transfer_results": [
+    {
+      "dataset": "3x4",
+      "row_col": "3x4",
+      "sample_num": 100,
+      "local": {
+        "X": {
+          "local_MSE": 0.014322386123239994,
+          "local_MAE": 0.046986985951662064,
+          "local_Sp": 0.8803324676528915,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9463467001914978,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.0025761546567082405,
+          "all_MAE_r": 0.5307132601737976,
+          "all_Sp": 0.8514971497149715,
+          "all_Sp_p": 3.1407836314850033e-29,
+          "all_Pearson": 0.8006758689880371,
+          "all_Pearson_p": 1.5636483741206997e-23
+        },
+        "Y": {
+          "local_MSE": 0.014670941978693008,
+          "local_MAE": 0.04754352569580078,
+          "local_Sp": 0.8859780164023924,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9462984800338745,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.0023787806276232004,
+          "all_MAE_r": 0.549735426902771,
+          "all_Sp": 0.8582178217821781,
+          "all_Sp_p": 3.848366880886438e-30,
+          "all_Pearson": 0.8130263090133667,
+          "all_Pearson_p": 9.374763833078613e-25
+        },
+        "iSWAP": {
+          "local_MSE": 0.05538656935095787,
+          "local_MAE": 0.15724362432956696,
+          "local_Sp": 0.926965463896454,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9333329200744629,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.00623505050316453,
+          "all_MAE_r": 0.3918476998806,
+          "all_Sp": 0.7688328832883288,
+          "all_Sp_p": 9.670796230860435e-21,
+          "all_Pearson": 0.8023360371589661,
+          "all_Pearson_p": 1.083669269554777e-23
+        }
+      },
+      "score_total": {
+        "ScoreTotal_MSE": 0.00013615349598694593,
+        "ScoreTotal_MAE": 0.010757609270513058,
+        "ScoreTotal_MAE_r": 0.41335538029670715,
+        "ScoreTotal_Sp": 0.8209060906090608,
+        "ScoreTotal_Sp_p": 1.3928301799459602e-25,
+        "ScoreTotal_Pearson": 0.8211842775344849,
+        "ScoreTotal_Pearson_p": 1.2999465061218872e-25,
+        "ScoreTotal_true_mean": 0.030187588185071945,
+        "ScoreTotal_pred_mean": 0.025996869429945946
+      }
+    },
+    {
+      "dataset": "3x5",
+      "row_col": "3x5",
+      "sample_num": 60,
+      "local": {
+        "X": {
+          "local_MSE": 0.012347905896604061,
+          "local_MAE": 0.040476471185684204,
+          "local_Sp": 0.8824178654949387,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9521586894989014,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.00364255765452981,
+          "all_MAE_r": 0.48846977949142456,
+          "all_Sp": 0.82745207001945,
+          "all_Sp_p": 3.641279109446256e-16,
+          "all_Pearson": 0.7818324565887451,
+          "all_Pearson_p": 1.6626558799453378e-13
+        },
+        "Y": {
+          "local_MSE": 0.011756649240851402,
+          "local_MAE": 0.03940984606742859,
+          "local_Sp": 0.8993295558936905,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9548752307891846,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.0031622168608009815,
+          "all_MAE_r": 0.49393516778945923,
+          "all_Sp": 0.8331758821894972,
+          "all_Sp_p": 1.489050339251917e-16,
+          "all_Pearson": 0.8128409385681152,
+          "all_Pearson_p": 3.0992130858734958e-15
+        },
+        "iSWAP": {
+          "local_MSE": 0.04738057404756546,
+          "local_MAE": 0.13612520694732666,
+          "local_Sp": 0.9227771742309531,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9387325048446655,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.008414236828684807,
+          "all_MAE_r": 0.46372875571250916,
+          "all_Sp": 0.6921922756321203,
+          "all_Sp_p": 9.030735749663676e-10,
+          "all_Pearson": 0.7889647483825684,
+          "all_Pearson_p": 7.059198332218936e-14
+        }
+      },
+      "score_total": {
+        "ScoreTotal_MSE": 0.00024614075664430857,
+        "ScoreTotal_MAE": 0.014633319340646267,
+        "ScoreTotal_MAE_r": 0.4401768147945404,
+        "ScoreTotal_Sp": 0.7874965268130037,
+        "ScoreTotal_Sp_p": 8.443100641218744e-14,
+        "ScoreTotal_Pearson": 0.8032354116439819,
+        "ScoreTotal_Pearson_p": 1.1470877619621477e-14,
+        "ScoreTotal_true_mean": 0.03616243600845337,
+        "ScoreTotal_pred_mean": 0.02605246752500534
+      }
+    },
+    {
+      "dataset": "4x4",
+      "row_col": "4x4",
+      "sample_num": 60,
+      "local": {
+        "X": {
+          "local_MSE": 0.014635791070759296,
+          "local_MAE": 0.04622402787208557,
+          "local_Sp": 0.8648686099735201,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9416144490242004,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.003188686678186059,
+          "all_MAE_r": 0.4620887339115143,
+          "all_Sp": 0.8247290914142819,
+          "all_Sp_p": 5.508585914973296e-16,
+          "all_Pearson": 0.8202662467956543,
+          "all_Pearson_p": 1.069345743986256e-15
+        },
+        "Y": {
+          "local_MSE": 0.014468824490904808,
+          "local_MAE": 0.04522974416613579,
+          "local_Sp": 0.8714854176285813,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9425526857376099,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.0030925532337278128,
+          "all_MAE_r": 0.4908851385116577,
+          "all_Sp": 0.8250069463739929,
+          "all_Sp_p": 5.282464330074666e-16,
+          "all_Pearson": 0.825181245803833,
+          "all_Pearson_p": 5.145186229857184e-16
+        },
+        "iSWAP": {
+          "local_MSE": 0.05203486606478691,
+          "local_MAE": 0.14565588533878326,
+          "local_Sp": 0.9138371116139133,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9331663846969604,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.006945333443582058,
+          "all_MAE_r": 0.3345576822757721,
+          "all_Sp": 0.7673798277299252,
+          "all_Sp_p": 8.585495624037592e-13,
+          "all_Pearson": 0.847403883934021,
+          "all_Pearson_p": 1.3820387263567565e-17
+        }
+      },
+      "score_total": {
+        "ScoreTotal_MSE": 0.00014109033509157598,
+        "ScoreTotal_MAE": 0.012622272595763206,
+        "ScoreTotal_MAE_r": 0.3580877184867859,
+        "ScoreTotal_Sp": 0.7933870519588776,
+        "ScoreTotal_Sp_p": 4.0815002165878245e-14,
+        "ScoreTotal_Pearson": 0.8500189185142517,
+        "ScoreTotal_Pearson_p": 8.696604729106884e-18,
+        "ScoreTotal_true_mean": 0.03987490385770798,
+        "ScoreTotal_pred_mean": 0.03431610018014908
+      }
+    },
+    {
+      "dataset": "3x6",
+      "row_col": "3x6",
+      "sample_num": 60,
+      "local": {
+        "X": {
+          "local_MSE": 0.011249395087361336,
+          "local_MAE": 0.037353210151195526,
+          "local_Sp": 0.866205593825312,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9503216743469238,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.003018925664946437,
+          "all_MAE_r": 0.43328002095222473,
+          "all_Sp": 0.8813559322033899,
+          "all_Sp_p": 1.527352361827535e-20,
+          "all_Pearson": 0.865452766418457,
+          "all_Pearson_p": 4.664755817522088e-19
+        },
+        "Y": {
+          "local_MSE": 0.010924325324594975,
+          "local_MAE": 0.03647443279623985,
+          "local_Sp": 0.8806661255120837,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9526687860488892,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.0028759173583239317,
+          "all_MAE_r": 0.5182401537895203,
+          "all_Sp": 0.870575159766602,
+          "all_Sp_p": 1.629505708049478e-19,
+          "all_Pearson": 0.8323109745979309,
+          "all_Pearson_p": 1.7081589345641361e-16
+        },
+        "iSWAP": {
+          "local_MSE": 0.04487922787666321,
+          "local_MAE": 0.12992005050182343,
+          "local_Sp": 0.9154560169017635,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9393605589866638,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.007735928054898977,
+          "all_MAE_r": 0.35747429728507996,
+          "all_Sp": 0.7474854126146153,
+          "all_Sp_p": 6.8470995387951935e-12,
+          "all_Pearson": 0.7974058389663696,
+          "all_Pearson_p": 2.4521093909177748e-14
+        }
+      },
+      "score_total": {
+        "ScoreTotal_MSE": 0.000180461720447056,
+        "ScoreTotal_MAE": 0.012980937957763672,
+        "ScoreTotal_MAE_r": 0.3741558790206909,
+        "ScoreTotal_Sp": 0.7966657404834677,
+        "ScoreTotal_Sp_p": 2.6956360440507536e-14,
+        "ScoreTotal_Pearson": 0.8365880846977234,
+        "ScoreTotal_Pearson_p": 8.597160744993514e-17,
+        "ScoreTotal_true_mean": 0.039016179740428925,
+        "ScoreTotal_pred_mean": 0.02993915230035782
+      }
+    },
+    {
+      "dataset": "4x5",
+      "row_col": "4x5",
+      "sample_num": 60,
+      "local": {
+        "X": {
+          "local_MSE": 0.013928312808275223,
+          "local_MAE": 0.04182099923491478,
+          "local_Sp": 0.8570529003974934,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9379719495773315,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.0032565961591899395,
+          "all_MAE_r": 0.43246763944625854,
+          "all_Sp": 0.7978883023061963,
+          "all_Sp_p": 2.304845161821085e-14,
+          "all_Pearson": 0.7839522957801819,
+          "all_Pearson_p": 1.2932757891947338e-13
+        },
+        "Y": {
+          "local_MSE": 0.013732705265283585,
+          "local_MAE": 0.04074622690677643,
+          "local_Sp": 0.88258672348084,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9390724897384644,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.0030958992429077625,
+          "all_MAE_r": 0.4489402174949646,
+          "all_Sp": 0.7957766046123924,
+          "all_Sp_p": 3.018843356552096e-14,
+          "all_Pearson": 0.7543933391571045,
+          "all_Pearson_p": 3.4047053371066838e-12
+        },
+        "iSWAP": {
+          "local_MSE": 0.061902884393930435,
+          "local_MAE": 0.15455672144889832,
+          "local_Sp": 0.9020287228210996,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.912585973739624,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.008108844980597496,
+          "all_MAE_r": 0.3288809061050415,
+          "all_Sp": 0.6738538482911922,
+          "all_Sp_p": 3.6160552340344035e-09,
+          "all_Pearson": 0.7463923692703247,
+          "all_Pearson_p": 7.631776287320147e-12
+        }
+      },
+      "score_total": {
+        "ScoreTotal_MSE": 0.00016644966672174633,
+        "ScoreTotal_MAE": 0.013729004189372063,
+        "ScoreTotal_MAE_r": 0.3439987301826477,
+        "ScoreTotal_Sp": 0.7641567101972772,
+        "ScoreTotal_Sp_p": 1.2184675885108963e-12,
+        "ScoreTotal_Pearson": 0.779434084892273,
+        "ScoreTotal_Pearson_p": 2.2019266564168166e-13,
+        "ScoreTotal_true_mean": 0.0433536134660244,
+        "ScoreTotal_pred_mean": 0.03520471602678299
+      }
+    },
+    {
+      "dataset": "4x6",
+      "row_col": "4x6",
+      "sample_num": 24,
+      "local": {
+        "X": {
+          "local_MSE": 0.012153328396379948,
+          "local_MAE": 0.03946346789598465,
+          "local_Sp": 0.8629982390990103,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9430783987045288,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.002783340634778142,
+          "all_MAE_r": 0.3187851905822754,
+          "all_Sp": 0.868695652173913,
+          "all_Sp_p": 3.708597947924534e-08,
+          "all_Pearson": 0.8205906748771667,
+          "all_Pearson_p": 9.075955063053698e-07
+        },
+        "Y": {
+          "local_MSE": 0.011821573600172997,
+          "local_MAE": 0.03818163648247719,
+          "local_Sp": 0.8793967727181478,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9453294277191162,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.002283055568113923,
+          "all_MAE_r": 0.2871326804161072,
+          "all_Sp": 0.8452173913043477,
+          "all_Sp_p": 2.0198318553448687e-07,
+          "all_Pearson": 0.8251753449440002,
+          "all_Pearson_p": 6.983913749536441e-07
+        },
+        "iSWAP": {
+          "local_MSE": 0.06645981222391129,
+          "local_MAE": 0.15597257018089294,
+          "local_Sp": 0.8867210441519835,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.8931936025619507,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.007000563200563192,
+          "all_MAE_r": 0.25556930899620056,
+          "all_Sp": 0.7495652173913043,
+          "all_Sp_p": 2.4869550398674495e-05,
+          "all_Pearson": 0.7599220871925354,
+          "all_Pearson_p": 1.647805947868619e-05
+        }
+      },
+      "score_total": {
+        "ScoreTotal_MSE": 0.00012116166180931032,
+        "ScoreTotal_MAE": 0.01129517238587141,
+        "ScoreTotal_MAE_r": 0.25065863132476807,
+        "ScoreTotal_Sp": 0.8547826086956521,
+        "ScoreTotal_Sp_p": 1.0493389191403898e-07,
+        "ScoreTotal_Pearson": 0.7963767051696777,
+        "ScoreTotal_Pearson_p": 3.2376701710745692e-06,
+        "ScoreTotal_true_mean": 0.04268578812479973,
+        "ScoreTotal_pred_mean": 0.03302851691842079
+      }
+    },
+    {
+      "dataset": "5x5",
+      "row_col": "5x5",
+      "sample_num": 12,
+      "local": {
+        "X": {
+          "local_MSE": 0.010117445141077042,
+          "local_MAE": 0.03339984267950058,
+          "local_Sp": 0.8511685956603124,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9416466951370239,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.0029486510902643204,
+          "all_MAE_r": 0.5985535979270935,
+          "all_Sp": 0.7342657342657343,
+          "all_Sp_p": 0.006543490146837884,
+          "all_Pearson": 0.7388482093811035,
+          "all_Pearson_p": 0.0060494705103337765
+        },
+        "Y": {
+          "local_MSE": 0.010059789754450321,
+          "local_MAE": 0.032485101372003555,
+          "local_Sp": 0.8803913338395996,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9423093199729919,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.00222765258513391,
+          "all_MAE_r": 0.5154125094413757,
+          "all_Sp": 0.7902097902097903,
+          "all_Sp_p": 0.0022231354099909186,
+          "all_Pearson": 0.8246219158172607,
+          "all_Pearson_p": 0.0009655492613092065
+        },
+        "iSWAP": {
+          "local_MSE": 0.05507119372487068,
+          "local_MAE": 0.13516774773597717,
+          "local_Sp": 0.8964511693075363,
+          "local_Sp_p": 0.0,
+          "local_Pearson": 0.9041522741317749,
+          "local_Pearson_p": 0.0,
+          "all_MAE": 0.006520921364426613,
+          "all_MAE_r": 0.276703417301178,
+          "all_Sp": 0.7552447552447553,
+          "all_Sp_p": 0.004508435484294224,
+          "all_Pearson": 0.7757090926170349,
+          "all_Pearson_p": 0.0030246018432080746
+        }
+      },
+      "score_total": {
+        "ScoreTotal_MSE": 8.877098298398778e-05,
+        "ScoreTotal_MAE": 0.010699686594307423,
+        "ScoreTotal_MAE_r": 0.29562893509864807,
+        "ScoreTotal_Sp": 0.6923076923076924,
+        "ScoreTotal_Sp_p": 0.012593030496094112,
+        "ScoreTotal_Pearson": 0.8003520369529724,
+        "ScoreTotal_Pearson_p": 0.0017673318507149816,
+        "ScoreTotal_true_mean": 0.037991560995578766,
+        "ScoreTotal_pred_mean": 0.03082788921892643
+      }
+    }
+  ],
+  "designer_result": {
+    "dataset": "Designer_sample",
+    "row_col": "5x5",
+    "sample_num": 5,
+    "local": {
+      "X": {
+        "local_MSE": 0.01330544613301754,
+        "local_MAE": 0.03702199459075928,
+        "local_Sp": 0.8438842214054817,
+        "local_Sp_p": 0.0,
+        "local_Pearson": 0.8301106095314026,
+        "local_Pearson_p": 0.0,
+        "all_MAE": 0.0007885782979428768,
+        "all_MAE_r": 0.6725801825523376,
+        "all_Sp": -0.49999999999999994,
+        "all_Sp_p": 0.3910022189557703,
+        "all_Pearson": 0.0342550203204155,
+        "all_Pearson_p": 0.9563936591148376
+      },
+      "Y": {
+        "local_MSE": 0.012159904465079308,
+        "local_MAE": 0.03554490953683853,
+        "local_Sp": 0.892758814168423,
+        "local_Sp_p": 0.0,
+        "local_Pearson": 0.8477255702018738,
+        "local_Pearson_p": 0.0,
+        "all_MAE": 0.0007568393484689295,
+        "all_MAE_r": 0.6436028480529785,
+        "all_Sp": -0.39999999999999997,
+        "all_Sp_p": 0.5046315754686912,
+        "all_Pearson": -0.3548845648765564,
+        "all_Pearson_p": 0.5578192472457886
+      },
+      "iSWAP": {
+        "local_MSE": 0.030811594799160957,
+        "local_MAE": 0.09266683459281921,
+        "local_Sp": 0.9195105836036642,
+        "local_Sp_p": 0.0,
+        "local_Pearson": 0.9094170331954956,
+        "local_Pearson_p": 0.0,
+        "all_MAE": 0.0015621280763298273,
+        "all_MAE_r": 0.41885581612586975,
+        "all_Sp": -0.09999999999999999,
+        "all_Sp_p": 0.8728885715695384,
+        "all_Pearson": -0.5338320732116699,
+        "all_Pearson_p": 0.3541305959224701
+      }
+    },
+    "score_total": {
+      "ScoreTotal_MSE": 5.557349595619598e-06,
+      "ScoreTotal_MAE": 0.0031075458973646164,
+      "ScoreTotal_MAE_r": 0.5166779160499573,
+      "ScoreTotal_Sp": -0.09999999999999999,
+      "ScoreTotal_Sp_p": 0.8728885715695384,
+      "ScoreTotal_Pearson": -0.5391210317611694,
+      "ScoreTotal_Pearson_p": 0.3484475910663605,
+      "ScoreTotal_true_mean": 0.005740710999816656,
+      "ScoreTotal_pred_mean": 0.0026331651024520397
+    }
+  }
+}
